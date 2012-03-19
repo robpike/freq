@@ -137,7 +137,7 @@ func printCounts(printable, unprintable string) {
 					continue
 				}
 				var r rune = rune((b2 << 16) | (b1 << 8) | b0)
-				if strconv.IsPrint(r) {
+				if r != ' ' && strconv.IsPrint(r) {
 					fmt.Printf(printable, r, r, count)
 				} else {
 					fmt.Printf(unprintable, r, count)
