@@ -7,7 +7,6 @@
 // option counts bytes instead. The table is then printed
 // to standard output, one count per line. Nothing is
 // printed for a code point if its count is zero.
-
 package main // import "robpike.io/cmd/freq"
 
 import (
