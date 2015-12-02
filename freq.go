@@ -114,9 +114,9 @@ func readRunes(file string, f *os.File) {
 
 func print() {
 	if countBytes {
-		printCounts("%.2x %c\t%d\n", "%.2x -\t%d\n")
+		printCounts("%.2x %c\t%d\n", "%.2x �\t%d\n")
 	} else {
-		printCounts("%.4x %c\t%d\n", "%.4x -\t%d\n")
+		printCounts("%.4x %c\t%d\n", "%.4x �\t%d\n")
 	}
 }
 
